@@ -1,0 +1,21 @@
+1-User strories=>Description of the application's functionality from the user's persprective(High-level overview). All user stories are putted together to describe the entire application
+2-Features=>Exact features to implement are determined by considering user stories
+3-Flow chart(WHAT we will build)=>Put all the features into flow chart to visualize the different actions that a user can take and how to program react to these actions.
+4-Architecture(HOW we will build it)=>How to organize code and js features that we will use
+5-Implementation
+---------------
+MAPTY APP PLANNING
+User stories: 
+.As a user, I want to log my running worksout with location, distance, time, pace and steps/minute, so I can keep a log of all my running. 
+.As a user, I want to log my cycling worksout with location, distance, time, speed and elevation gain, so I can keep a log of all my cycling. 
+.As a user, I want to see all my worksout at a galance, time, so I can easily track my progress over time.  
+.As a user, I want to also see my worksout on a map, so I can easily check where I work out most.
+.As a user, I want to see all my worksout when I leave the app and come back later, so I can keep usingthere app over time.  
+Features:
+.Map where user clicks to add new workout.
+.Geolocation to display map at current location.
+.Form to input distance,time,pace,steps/minute.
+.Form to input distance,time,speed,elevation gain.
+.List to display all worksout 
+.Display all worksout in map
+.Local storage API to store workout data in the browser. On page load, read the saved data from local storage and display.
